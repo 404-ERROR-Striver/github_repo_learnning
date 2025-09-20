@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Simple Website</title>
+  <style>
+    /* Simple, modern-ish styling (feel free to change) */
+    :root {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: light;
+    }
+    body {
+      max-width: 900px;
+      margin: 36px auto;
+      padding: 24px;
+      line-height: 1.45;
+      background: #f7f8fb;
+      color: #111;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(17,17,17,0.06);
+    }
+    header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    img.avatar {
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 2px solid #e0e6f2;
+      background: #ddd;
+    }
+    h1 { margin: 0; font-size: 1.6rem; }
+    p.lead { margin: 6px 0 12px; color: #444; }
+    nav { margin: 14px 0; }
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      background: #fff;
+      border: 1px solid #e6e9f3;
+      color: #0b3b66;
+    }
+    section { margin-top: 12px; }
+    ul.skills { display: flex; gap: 8px; flex-wrap: wrap; padding-left: 0; list-style: none; }
+    ul.skills li {
+      padding: 6px 8px;
+      background: #fff;
+      border: 1px solid #eef2fb;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 8px; background: #fff; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #f0f3f8; }
+    footer { margin-top: 20px; font-size: 0.9rem; color: #666; }
+    .muted { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Replace src with your photo, or leave as placeholder -->
+    <img class="avatar" src="https://via.placeholder.com/150" alt="Your photo">
+    <div>
+      <h1>First Last</h1>
+      <div class="muted">2nd-year CSE student • Aspiring Web Developer</div>
+      <p class="lead">I build small web projects and learn algorithms. This is a tiny homepage to show a bio, skills, and education.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Hello — I’m a computer science student who enjoys building front-end projects and solving problems. I like simple, clean code and learning new things every day.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Degree / School</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024–Present</td>
+          <td>B.Tech (CSE) — AKTU</td>
+          <td>2nd year, focusing on algorithms & web dev</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>High School</td>
+          <td>Completed class XII</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Links</h2>
+    <p>Find me on:</p>
+    <p>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> |
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="mailto:youremail@example.com">Email</a>
+    </p>
+  </section>
+
+  <footer>
+    <div class="muted">Made with ❤️ — Edit this file to personalise it.</div>
+  </footer>
+
+</body>
+</html>
