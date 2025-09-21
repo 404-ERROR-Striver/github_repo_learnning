@@ -1,3 +1,5 @@
 text learning
 
 the chnage has been made 
+
+understanding the working of git and making my contributuion 
