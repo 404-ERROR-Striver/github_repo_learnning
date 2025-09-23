@@ -3,3 +3,4 @@ text learning
 the chnage has been made 
 
 understanding the working of git and making my contributuion 
+ change has to be amde in the index file of the project
