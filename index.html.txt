@@ -103,7 +103,7 @@
       <thead>
         <tr>
           <th>Year</th>
-          <th>Degree / School</th>
+          <th>Degree / School/ COLLEGE</th>
           <th>Details</th>
         </tr>
       </thead>
