@@ -4,3 +4,4 @@ the chnage has been made
 
 understanding the working of git and making my contributuion 
  change has to be amde in the index file of the project
+ To work on this project sice exam is going on 
