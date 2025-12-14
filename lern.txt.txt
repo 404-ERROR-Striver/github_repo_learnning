@@ -6,3 +6,4 @@ understanding the working of git and making my contributuion
  change has to be amde in the index file of the project
  To work on this project sice exam is going on 
 another day learning for data analytics so i am unaable to work on github 
+another day learning for data analytics so i am unaable to work on github 
