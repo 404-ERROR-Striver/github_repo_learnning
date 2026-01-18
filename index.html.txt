@@ -164,6 +164,30 @@
       </tbody>
     </table>
   </section>
+ <section id="education">
+    <h2>Education</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Degree / School/ COLLEGE</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024–Present</td>
+          <td>B.Tech (CSE) — AKTU</td>
+          <td>2nd year, focusing on algorithms & web dev</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>High School</td>
+          <td>Completed class XII</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
   <section id="contact1">
     <h2>Contact & Links</h2>
