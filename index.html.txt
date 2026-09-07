@@ -14,7 +14,7 @@
     body {
       max-width:940
       max-width: 920px;
-      margin: 36px auto;
+      //margin: 36px auto;
       padding: 24px;
       line-height: 1.45;
       background: #f7f8fb;
